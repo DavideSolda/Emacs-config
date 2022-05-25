@@ -87,3 +87,8 @@
   (progn
     (global-set-key [remap other-window] 'ace-window)
     ))
+(use-package flycheck
+  :ensure t
+  :init
+  (global-flycheck-mode t)
+)
